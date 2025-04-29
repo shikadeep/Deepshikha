@@ -1,15 +1,17 @@
 import React from 'react'
 import CourseCard from './CourseCard'
-// import img from '../../assets/course-card.png'
+// import img from "../assets/CourseArrow.png"
+import img from '../../assets/CourseArrow.png'
+
 const Course = () => {
     const courseList = [
         {
-            title: "Stock Market",
+            title: "Stock Markettttttttt",
             description: "More than By Experience. Learn how to becoming professional Now...",
             price: "Rs. 2999",
             oldprice: "Rs. 32.90",
             link: "View Detail",
-            arrow:   "/src/assets/CourseArrow.png",
+            arrow:  img,
             Cardimg: "/src/assets/course-card.png"
         },
 
