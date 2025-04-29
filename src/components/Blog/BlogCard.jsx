@@ -2,7 +2,7 @@ import React from 'react'
 
 const BlogCard = ({ Blogimg, title, description }) => {
   return (
-    <div className="flex flex-col gap-2 font-poppins  rounded-xl transition hover:shadow-lg">
+    <div className="flex flex-col gap-2 bg-white font-poppins  rounded-xl transition hover:shadow-lg">
       <img 
         src={Blogimg} 
         alt={title}
