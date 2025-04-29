@@ -1,25 +1,26 @@
 import React from 'react'
 import BlogCard from './BlogCard'
+import img from '../../assets/blog-img.png'
 
 const Blog = () => {
   const blogList = [
     {
-      Blogimg: "/src/assets/blog-img.png",
+      Blogimg: img,
       title: "Our top 10 frameworks to use",
       description: "JavaScript frameworks make development easy with extensive ",
     },
     {
-      Blogimg: "/src/assets/blog-img.png",
+      Blogimg: img,
       title: "Our top 10 frameworks to use",
       description: "JavaScript frameworks make development easy with extensive ",
     },
     {
-      Blogimg: "/src/assets/blog-img.png",
+      Blogimg: img,
       title: "Our top 10 frameworks to use",
       description: "JavaScript frameworks make development easy with extensive ",
     },
     {
-      Blogimg: "/src/assets/blog-img.png",
+      Blogimg: img,
       title: "Our top 10 frameworks to use",
       description: "JavaScript frameworks make development easy with extensive ",
     },
