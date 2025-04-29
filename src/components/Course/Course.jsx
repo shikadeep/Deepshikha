@@ -2,17 +2,19 @@ import React from 'react'
 import CourseCard from './CourseCard'
 // import img from "../assets/CourseArrow.png"
 import img from '../../assets/CourseArrow.png'
+import cardImg from '../../assets/course-card.png'
+
 
 const Course = () => {
     const courseList = [
         {
-            title: "Stock Markettttttttt",
+            title: "Stock Market",
             description: "More than By Experience. Learn how to becoming professional Now...",
             price: "Rs. 2999",
             oldprice: "Rs. 32.90",
             link: "View Detail",
             arrow:  img,
-            Cardimg: "/src/assets/course-card.png"
+            Cardimg: cardImg,
         },
 
         {
@@ -21,8 +23,8 @@ const Course = () => {
             price: "Rs. 2999",
             oldprice: "Rs. 32.90",
             link: "View Detail",
-            arrow:   "/src/assets/CourseArrow.png",
-            Cardimg: "/src/assets/course-card.png"
+            arrow:   img,
+            Cardimg: cardImg,
         },
 
         {
@@ -31,8 +33,8 @@ const Course = () => {
             price: "Rs. 2999",
             oldprice: "Rs. 32.90",
             link: "View Detail",
-            arrow:   "/src/assets/CourseArrow.png",
-            Cardimg: "/src/assets/course-card.png"
+            arrow:   img,
+            Cardimg: cardImg,
         },
 
         {
@@ -41,8 +43,8 @@ const Course = () => {
             price: "Rs. 2999",
             oldprice: "Rs. 32.90",
             link: "View Detail",
-            arrow:   "/src/assets/CourseArrow.png",
-            Cardimg: "/src/assets/course-card.png"
+            arrow:  img,
+            Cardimg: cardImg,
         },
 
     ]
