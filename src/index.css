@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body{
-    width:1300px;
-} */
+body{
+    scroll:smooth;
+}

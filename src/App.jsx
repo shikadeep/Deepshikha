@@ -93,7 +93,7 @@ const router = createBrowserRouter(
 function App() {
 
   return (
-    <div>
+    <div className='scroll-smooth'>
       <RouterProvider router={router} />
     </div>
   )
