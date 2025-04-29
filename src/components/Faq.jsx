@@ -4,7 +4,7 @@ import FAQSection from './Faq/FAQSection'
 const Faq = () => {
     return (
         <div className='w-full h-auto md:h-[850px] p-14 md:p-24 flex justify-center bg-[#F0EBFA]'>
-    <section className='w-full md:w-[1155px] h-auto md:h-[499px] flex flex-col md:flex-row gap-8 md:gap-[10px]'>
+    <section className='w-full md:w-[1155px] h-auto md:h-[499px] flex flex-col md:flex-row gap-8 md:gap-[100px]'>
         {/* Left section */}
         <div className='w-full md:w-[540px] h-auto md:h-[335px] flex flex-col gap-5'>
             <h3 className=' md:w-[250px] rounded-3xl text-[#FFFFFF] font-medium text-[16px] leading-6 bg-[#1200FF] p-3 text-center md:text-left'>

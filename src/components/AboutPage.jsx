@@ -9,10 +9,9 @@ import Footer from './Footer'
 
 const AboutPage = () => {
     return (
-        
       <>
       <Navbar/>
-      <div className="w-full bg-[#FDECF2] flex justify-center items-center px-14 py-10">
+      <div className="w-full bg-[#FDECF2] flex justify-center items-center px-16 py-10">
   <section className="w-full max-w-[1155px] font-poppins flex flex-col gap-16">
 
     {/* First Row */}
@@ -27,13 +26,13 @@ const AboutPage = () => {
         </p>
       </div>
       {/* Image */}
-      <img src={ImgOne} alt="About Us" className="w-full md:w-1/2 rounded-2xl object-cover max-h-[420px]" />
+      <img src={ImgOne} alt="About Us" className="w-full md:w-1/2 rounded-2xl object-cover max-h-[410px]" />
     </section>
 
     {/* Second Row */}
     <section className="flex flex-col md:flex-row gap-10 md:gap-[75px] items-center">
       {/* Image */}
-      <img src={ImgTwo} alt="Learning" className="w-full md:w-1/2 rounded-2xl object-cover max-h-[420px]" />
+      <img src={ImgTwo} alt="Learning" className="w-full md:w-1/2 rounded-2xl object-cover max-h-[410px]" />
       {/* Text */}
       <div className="w-full md:w-1/2 flex flex-col gap-4">
         <p className="text-[16px] md:text-[18px] leading-[26px] md:leading-[28px] text-[#000000]">

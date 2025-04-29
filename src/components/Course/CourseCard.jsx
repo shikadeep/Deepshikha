@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 const CourseCard = ({Cardimg, title, description, price, oldprice, link, arrow}) => {
   const navigate = useNavigate();
   return (
-    <div className="w-[275px] sm:w-[250px] xs:w-full h-auto bg-[#FFFFFF] flex flex-col rounded-md overflow-hidden   transition-transform hover:scale-109 hover:border-b-4 border-[#7830FF] hover:shadow-xl duration-300">
+    <div className="w-[275px] sm:w-[250px] xs:w-full h-auto bg-[#FFFFFF] flex flex-col rounded-md overflow-hidden   transition-transform hover:scale-105 hover:border-b-4 border-[#7830FF] hover:shadow-xl duration-300">
       
     {/* Course Image */}
     <img className="w-full h-[210px] object-cover" src={Cardimg} alt="Course" />

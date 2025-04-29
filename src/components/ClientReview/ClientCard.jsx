@@ -2,7 +2,7 @@ import React from 'react'
 
 const ClientCard = ({ review, id, user, rate }) => {
   return (
-    <div className="w-full min-h-[250px] rounded-[40px] bg-white p-6 flex flex-col gap-4 shadow-md">
+    <div className="w-full min-h-[250px] rounded-[40px] bg-white p-6  flex flex-col gap-4 shadow-md">
       <p className="text-[#2F2A2A] text-sm md:text-base leading-relaxed font-normal">
         {review}
       </p>

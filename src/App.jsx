@@ -23,6 +23,7 @@ const router = createBrowserRouter(
           <Matrix />
           <About />
           <Course />
+          <Blog/>
           <Client />
           <Contact />
           <Faq />
@@ -35,7 +36,6 @@ const router = createBrowserRouter(
       element:
         <div>
           <AboutPage />
-          
         </div>
     },
 
@@ -95,14 +95,6 @@ function App() {
   return (
     <div>
       <RouterProvider router={router} />
-      {/* <Navbar/>
-      <Home/>
-      <Matrix/>
-      <About/>
-      <Course/>
-      <Blog/><Client/><Contact/>
-      <Faq/>
-      <Footer/> */}
     </div>
   )
 }

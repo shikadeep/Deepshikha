@@ -48,7 +48,7 @@ const Contact = () => {
   </div>
 
   {/* Bottom Info Boxes */}
-  <div className='w-full flex  justify-between   flex-col  gap-8 mt-10'>
+  <div className='w-full flex  justify-between md:flex-row  flex-col  gap-8 mt-10'>
 
     <div className='w-[320px] md:w-[350px] h-[170px] bg-[#F5F5F5] rounded-2xl p-4 flex flex-col gap-3'>
       <img src={Mail} className='w-[50px] h-[50px]' />
